@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Manthan Nimbalkar Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+/* skill levels */
+.skill-mf {
+  margin-top: 20px;
+}
+
+.tool-skill p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff; /* White text for contrast */
+}
+
+.card.skill-card {
+  border: 1px solid #ccc; /* Light border for a softer look */
+  border-radius: 8px;
+  padding: 15px; /* Increased padding for better visual space */
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+  background-color: #f0f0f0; /* Light background color for the card */
+}
+
+.card.skill-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  border-color: #007bff; /* Blue border on hover */
+}
+
+.card.skill-card p {
+  margin: 0;
+  font-weight: bold;
+  color: #333; /* Dark text for better readability */
+  font-size: 16px; /* Slightly smaller font size for the text */
+}
+
+.card.skill-card.basic {
+  background-color: #ffe6e6; /* Light red for Basic */
+  color: #333; /* Dark text for contrast */
+}
+
+.card.skill-card.proficient {
+  background-color: #fff3e6; /* Light peach for Proficient */
+  color: #333; /* Dark text for contrast */
+}
+
+.card.skill-card.expert {
+  background-color: #e6ffe6; /* Light green for Expert */
+  color: #333; /* Dark text for contrast */
+}
+
+.card.skill-card.selected {
+  border: 4px solid #007bff; /* Blue border for selected card */
+}
+
+
+
+</style>
+
+
+  </head>
+  <!-- <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background-image: url('images/bg_7.jpg'); background-size: cover; background-position: center; background-attachment: fixed;"> -->
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Manthan Nimbalkar</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg4.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hallo!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Manthan Nimbalkar</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Data Analyst  ',
+						'YouTuber  ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>A Data Analyst</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://www.youtube.com/@manthannimbalkarthedataanalyst" class="btn btn-primary py-3 px-4">YouTube</a> 
+							<a href="https://github.com/Manthannimbalkar" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/LinkedIn_Profile.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Manthan Nimbalkar</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Data Analyst</span></p>
+										<p><span class="title-s">Experience: </span> <span>1 Year 7 Months</span></p>
+										<p><span class="title-s">Address: </span> <span>Pune, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								  <div class="skill-mf">
+									<p class="title-s">Skills</p>
+								  
+									<!-- SQL -->
+									<div class="tool-skill">
+									  <p>SQL</p>
+									  <div class="row">
+										<div class="col-md-4">
+										  <div class="card skill-card basic">
+											<p class="card-title">Basic</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card proficient selected">
+											<p class="card-title">Proficient</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card expert">
+											<p class="card-title">Expert</p>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  
+									<!-- Python -->
+									<div class="tool-skill">
+									  <p>Python</p>
+									  <div class="row">
+										<div class="col-md-4">
+										  <div class="card skill-card basic">
+											<p class="card-title">Basic</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card proficient selected">
+											<p class="card-title">Proficient</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card expert">
+											<p class="card-title">Expert</p>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  
+									<!-- Power BI -->
+									<div class="tool-skill">
+									  <p>Power BI</p>
+									  <div class="row">
+										<div class="col-md-4">
+										  <div class="card skill-card basic">
+											<p class="card-title">Basic</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card proficient selected">
+											<p class="card-title">Proficient</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card expert">
+											<p class="card-title">Expert</p>
+										  </div>
+										</div>
+									  </div>
+									</div>
+
+									<!-- Excel -->
+									<div class="tool-skill">
+										<p>Excel</p>
+										<div class="row">
+										  <div class="col-md-4">
+											<div class="card skill-card basic">
+											  <p class="card-title">Basic</p>
+											</div>
+										  </div>
+										  <div class="col-md-4">
+											<div class="card skill-card proficient selected">
+											  <p class="card-title">Proficient</p>
+											</div>
+										  </div>
+										  <div class="col-md-4">
+											<div class="card skill-card expert">
+											  <p class="card-title">Expert</p>
+											</div>
+										  </div>
+										</div>
+									  </div>
+								  
+									<!-- QGIS -->
+									<div class="tool-skill">
+									  <p>QGIS</p>
+									  <div class="row">
+										<div class="col-md-4">
+										  <div class="card skill-card basic selected">
+											<p class="card-title">Basic</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card proficient">
+											<p class="card-title">Proficient</p>
+										  </div>
+										</div>
+										<div class="col-md-4">
+										  <div class="card skill-card expert">
+											<p class="card-title">Expert</p>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  
+								
+								  
+									
+								  </div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>With over 1 year of comprehensive experience in the field of data science and analytics, accompanied by a Master's degree in Commerce. 
+									Proficient in data analysis, statistical analysis, hypothesis testing, customer behavior analysis, and machine learning. 
+									Demonstrated success in leading impactful projects and delivering actionable insights through advanced analytics and visualization tools.</p>
+								 <ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Data Analytics</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Election Analytics, Retail, Ecommerce, Marketing</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Post Graduate Diploma in Supply Chain Management, Data Science & AI Certification</span></li>
+									<li class="d-flex"><span>Languages:</span> <span>Marathi, English, Hindi, German</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Python (Pandas, Matplotlib), SQL, Excel, QGIS</span></li>
+									<li class="d-flex"><span>Interests:</span> <span>Traveling, Photography</span></li>
+								 </ul>
+								 
+									
+								</ul>
+							</div>
+						</div>
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="15">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/manthan-nimbalkar/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Data Analyst with over 1 year of experience delivering actionable insights across diverse domains such as election analytics, retail, and e-commerce. Skilled in data analysis, visualization, statistical techniques, and automation using tools like SQL, Power BI, and Python.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Jan 2024-Present</span>
+					<h2>Data Analyst</h2>
+					<span class="position">Proneta Tech (OPC) Pvt Ltd, Pune</span>
+					<p class="mt-4">
+						ProNeta, the election analytics and technology division of ProNeta Tech (OPC) Pvt. Ltd., Pune, provides data-driven insights, geography-based village-booth level analysis, and technology solutions like mobile apps and websites to support political consultants and decision-makers in running effective campaigns across India since 2017. 
+						<ul>
+							<li>Analyzed election results from booth to village level, assessing voter behavior patterns to inform data-driven campaign strategies.</li>
+                            <li>Designed Power BI visualizations and built interactive dashboards using Flask, enabling real-time analytics and software development support.</li>
+                            <li>Processed unstructured PDF files into actionable datasets using Python and advanced data-processing techniques, enhancing data accessibility.</li>
+                            <li>Led a dynamic team of 2 to 40 members, optimizing task delegation, ensuring timely deliverables, and automating PDF report generation with OpenPyXL.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Jul 2023-Dec 2023</span>
+					<h2>Data Analyst Intern</h2>
+					<span class="position">Proneta Tech (OPC) Pvt Ltd, Pune</span>
+					<p class="mt-4">
+						<ul>
+							<li>Assisted in election data analysis, focusing on past election results from booth to village level to identify voter behavior patterns for future campaigns.</li>
+							<li>Created a demo Power BI report for analyzing online exam results and student performance, showcasing key insights for decision-making.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Jun 2023-Jul 2023</span>
+					<h2>Data Analyst Intern</h2>
+					<span class="position">Excelerate, Remote</span>
+					<p class="mt-4">
+						<ul>
+							<li>Analyzed Facebook ad campaign data for the Superhero U event using Excel and Power BI.</li>
+							<li>Identified underperforming campaigns and recommended cost-saving measures for budget optimization.</li>
+							<li>Applied statistical analysis and created visualizations to evaluate campaign performance.</li>
+							<li>Collaborated with the marketing team to align on objectives and KPIs, presenting insights to enhance campaign outcomes.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Feb 2023-May 2023</span>
+					<h2>Data Analyst Intern</h2>
+					<span class="position">Trainity, Remote</span>
+					<p class="mt-4">
+						<ul>
+							<li>Completed diverse data analytics projects, including Instagram user analytics, operations and metric analysis, and hiring process analysis.</li>
+							<li>Applied statistical techniques and created dashboards to provide actionable insights for decision-making.</li>
+							<li>Worked on data collection, cleaning, and visualization tasks to support data-driven business decisions.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Feb 2023-Mar 2023</span>
+					<h2>Data Science Intern</h2>
+					<span class="position">LetsgGrowMore, Remote</span>
+					<p class="mt-4">
+						<ul>
+							<li>Completed machine learning projects such as Iris flower classification, global terrorism analysis, and stock market prediction using Python.</li>
+							<li>Built a time-series model for price forecasting and developed an NLP-based predictive text generator for next-word prediction.</li>
+							<li>Strengthened skills in problem-solving, exploratory data analysis, and building predictive models using machine learning algorithms.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2022</span>
+    					<h2>Post Graduate Diploma in Supply Chain Management</h2>
+    					<span class="position">Symbiosis Centre for Distance Learning</span>
+    					<p class="mt-4">Grade: First class distinction.</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2017-2019</span>
+    					<h2>Master of Commerce</h2>
+    					<span class="position">Shivaji University Kolhapur</span>
+    					<p class="mt-4">Grade: First class.</p>
+    				</div>
+				</div>
+
+
+				<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2017-2019</span>
+    					<h2>Batchelor of Commerce</h2>
+    					<span class="position">Shivaji University Kolhapur</span>
+    					<p class="mt-4">Grade: First class.</p>
+    				</div>
+				</div>
+
+
+				<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2017-2019</span>
+    					<h2>HSC</h2>
+    					<span class="position">Shivaji University Kolhapur</span>
+    					<p class="mt-4">Grade: First class.</p>
+    				</div>
+				</div>
+    		</div>
+
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="docs/MANTHAN_NIMBALKAR.pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are few Data Analytics projects on SQL, Python, Power BI.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Manthannimbalkar/CallCenter-Analytics-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/Manthannimbalkar/CallCenter-Analytics-Dashboard">Call Centre Management Analysis – Power BI</a></h3>
+                <p>Developed a Call Centre Management Analysis Dashboard using Power BI to track daily call statuses and optimize campaign efficiency.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://youtu.be/BtA0_TATql8" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://youtu.be/BtA0_TATql8">Online Exam Result Analysis – Power BI</a></h3>
+                <p>Created a Power BI demo project to analyze online exam results, providing insights into student performance and academic trends.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://youtu.be/7o47BkZOgdY" class="block-20 zoom-effect" style="background-image: url('images/proj_3.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://youtu.be/7o47BkZOgdY">Mexico Toy Store Sales Analysis – Power BI</a></h3>
+                <p>Designed a Power BI dashboard for a Mexico Toy Store to track and analyze sales and inventory data, uncovering insights and trends across Mexico.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Manthannimbalkar/SQL-Projects" class="block-20 zoom-effect" style="background-image: url('images/restaurant-hall-with-lots-table.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Manthannimbalkar/SQL-Projects">Restaurant Orders Analysis – SQL</a></h3>
+				  <p>Leveraged advanced SQL queries to analyze sales orders, uncovering insights into restaurant performance and customer preferences.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Manthannimbalkar/Python-Projects/tree/master/UK-Train-Analysis" class="block-20 zoom-effect" style="background-image: url('images/s300_iep-train.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Manthannimbalkar/Python-Projects/tree/master/UK-Train-Analysis">UK Train Rides Analysis – Python</a></h3>
+				  <p>Applied Python techniques, including Exploratory Data Analysis (EDA) and data visualization, to analyze UK train rides and uncover key travel patterns and insights..</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container">
+		  <div class="row d-md-flex align-items-center">
+			<!-- SQL Projects -->
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18 text-center">
+				<div class="icon mb-2">
+				  <img src="images/sql.png" alt="SQL Icon" style="width: 50px; height: 50px;">
+				</div>
+				<div class="text">
+				  <strong class="number" data-number="4">0</strong>
+				  <span>SQL Projects</span>
+				</div>
+			  </div>
+			</div>
+			<!-- Power BI Projects -->
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18 text-center">
+				<div class="icon mb-2">
+				  <img src="images/powerBI.svg" alt="Power BI Icon" style="width: 50px; height: 50px;">
+				</div>
+				<div class="text">
+				  <strong class="number" data-number="3">0</strong>
+				  <span>Power BI Projects</span>
+				</div>
+			  </div>
+			</div>
+			<!-- Python Projects -->
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18 text-center">
+				<div class="icon mb-2">
+				  <img src="images/python.png" alt="Python Icon" style="width: 50px; height: 50px;">
+				</div>
+				<div class="text">
+				  <strong class="number" data-number="12">0</strong>
+				  <span>Python Projects</span>
+				</div>
+			  </div>
+			</div>
+			<!-- Excel Projects -->
+			<!-- <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18 text-center">
+				<div class="icon mb-2">
+				  <img src="images/excel.png" alt="Excel Icon" style="width: 50px; height: 50px;">
+				</div>
+				<div class="text">
+				  <strong class="number" data-number="12">0</strong>
+				  <span>Excel Projects</span>
+				</div>
+			  </div>
+			</div> -->
+		  </div>
+		</div>
+	  </section>
+	  
+	  
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_2.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I am passionate about solving business problems and uncovering hidden stories within data. </h4>
+						<br>
+						<p><a href="https://github.com/Manthannimbalkar" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+		  <div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Contact</h1>
+			  <h2 class="mb-4">Contact Me</h2>
+			  <p>Below are the details to reach out to me!</p>
+			</div>
+		  </div>
+	  
+		  <div class="row d-flex contact-info mb-5">
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="bi bi-geo-alt"></span>
+				</div>
+				<h3 class="mb-4">Address</h3>
+				<p>Pune, India</p>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="bi bi-telephone"></span>
+				</div>
+				<h3 class="mb-4">Contact Number</h3>
+				<p><a href="tel://0101010101">+91 9175412734</a></p>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="bi bi-envelope"></span>
+				</div>
+				<h3 class="mb-4">Email Address</h3>
+				<p><a href="mailto:info@yoursite.com">manthannimbalkardsda@gmail.com</a></p>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="bi bi-download"></span>
+				</div>
+				<h3 class="mb-4">Download Resume</h3>
+				<p><a href="docs/MANTHAN_NIMBALKAR.pdf">resume</a></p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<!-- <div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div> -->
+				<br>
+				<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					<li class="ftco-animate normal-txt">Connect with me:</li>
+				  </ul>
+				  <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					<li class="ftco-animate"><a href="https://www.youtube.com/@manthannimbalkarthedataanalyst"><span class="icon-youtube"></span></a></li>
+					<li class="ftco-animate"><a href="https://www.linkedin.com/in/manthan-nimbalkar/"><span class="icon-linkedin"></span></a></li>
+					<li class="ftco-animate"><a href="https://www.instagram.com/dataanalyst_manthan/"><span class="icon-instagram"></span></a></li>
+				  </ul>				  			  
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <!-- <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center"> -->
+  
+			  <!-- <p>Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.</p> -->
+			<!-- </div>
+		  </div>
+		</div>
+	  </footer> -->
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
